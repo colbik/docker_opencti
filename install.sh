@@ -39,7 +39,7 @@ cd opencti
 
 # Start OpenCTI
 echo "Starting OpenCTI..."
-sudo docker-compose up -d
+sudo docker-compose --env-file /home/jirik/opencti/docker-compose.env up -d
 
 # Display completion message
 echo "OpenCTI should now be running. Access it via http://empheral_IP:8080 (or your server IP address)"
