@@ -33,6 +33,8 @@ curl -L https://raw.githubusercontent.com/colbik/docker_opencti/main/test.env -o
 # Create a directory for OpenCTI and move the Docker Compose file there
 mkdir opencti
 mv docker-compose.yml opencti/
+mv docker-compose.env opencti/
+
 
 # Navigate to OpenCTI directory
 cd opencti
