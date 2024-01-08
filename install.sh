@@ -44,4 +44,4 @@ echo "Starting OpenCTI..."
 sudo docker-compose --env-file /home/jirik/opencti/docker-compose.env up -d
 
 # Display completion message
-echo "OpenCTI should now be running. Access it via http://opencti:8080 (or your server IP address)"
+echo "OpenCTI should now be running. Access it via http://opencti.datasense.poc:8080 (or your server IP address)"
